@@ -1,0 +1,100 @@
+# IDEs
+## IntelliJ IDEA / PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!.idea/workspace.xml
+!.idea/tasks.xml
+!.idea/vcs.xml
+
+## VS Code
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+!.vscode/launch.json  # Keep if you want shared configs
+
+## Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+## PyCharm
+.pycharm_modules/
+.idea_modules/
+
+# Python / PySpark
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Docker
+.dockerignore
+Dockerfile*
+docker-compose.override.yml
+docker-compose*.yml
+!docker-compose.yml
+
+# Data (Don't commit generated data)
+data/raw/
+data/processed/
+!data/.gitkeep
+
+# Postgres volumes
+pg_data/
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+spark-*.out
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependencies
+pipenv/
+poetry.lock
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Spark local files

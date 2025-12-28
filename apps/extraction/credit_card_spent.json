@@ -1,0 +1,114 @@
+[
+    {
+        "field_name": "person_name",
+        "datatype": "STRING",
+        "maxLength": 50,
+        "precision": null,
+        "scale": null,
+        "dateFormat": null
+    },
+    {
+        "field_name": "acct_num",
+        "datatype": "STRING",
+        "maxLength": 30,
+        "precision": null,
+        "scale": null,
+        "dateFormat": null
+    },
+    {
+        "field_name": "card_company",
+        "datatype": "STRING",
+        "maxLength": 20,
+        "precision": null,
+        "scale": null,
+        "dateFormat": null
+    },
+    {
+        "field_name": "card_number",
+        "datatype": "STRING",
+        "maxLength": 25,
+        "precision": null,
+        "scale": null,
+        "dateFormat": null
+    },
+    {
+        "field_name": "txn_datetime",
+        "datatype": "STRING",
+        "maxLength": 30,
+        "precision": null,
+        "scale": null,
+        "dateFormat": "yyyy-MM-dd HH:mm:ss"
+    },
+    {
+        "field_name": "merch_name",
+        "datatype": "STRING",
+        "maxLength": 50,
+        "precision": null,
+        "scale": null,
+        "dateFormat": null
+    },
+    {
+        "field_name": "merch_cat",
+        "datatype": "STRING",
+        "maxLength": 40,
+        "precision": null,
+        "scale": null,
+        "dateFormat": null
+    },
+    {
+        "field_name": "txn_amount",
+        "datatype": "DECIMAL",
+        "maxLength": null,
+        "precision": 12,
+        "scale": 2,
+        "dateFormat": null
+    },
+    {
+        "field_name": "currency",
+        "datatype": "STRING",
+        "maxLength": 10,
+        "precision": null,
+        "scale": null,
+        "dateFormat": null
+    },
+    {
+        "field_name": "pay_meth",
+        "datatype": "STRING",
+        "maxLength": 20,
+        "precision": null,
+        "scale": null,
+        "dateFormat": null
+    },
+    {
+        "field_name": "city",
+        "datatype": "STRING",
+        "maxLength": 50,
+        "precision": null,
+        "scale": null,
+        "dateFormat": null
+    },
+    {
+        "field_name": "txn_type",
+        "datatype": "STRING",
+        "maxLength": 20,
+        "precision": null,
+        "scale": null,
+        "dateFormat": null
+    },
+    {
+        "field_name": "bill_cyc",
+        "datatype": "STRING",
+        "maxLength": 20,
+        "precision": null,
+        "scale": null,
+        "dateFormat": null
+    },
+    {
+        "field_name": "txn_status",
+        "datatype": "STRING",
+        "maxLength": 15,
+        "precision": null,
+        "scale": null,
+        "dateFormat": null
+    }
+]
