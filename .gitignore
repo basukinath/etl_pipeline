@@ -54,11 +54,6 @@ docker-compose.override.yml
 docker-compose*.yml
 !docker-compose.yml
 
-# Data (Don't commit generated data)
-data/raw/
-data/processed/
-!data/.gitkeep
-
 # Postgres volumes
 pg_data/
 *.db
