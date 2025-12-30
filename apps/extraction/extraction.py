@@ -27,27 +27,6 @@ spark = SparkSession.builder \
     .appName("credit-card-extraction") \
     .getOrCreate()
 
-# job_uuid = uuid.uuid4().hex
-# job_id = job_uuid[:5]
-# logger.info(f"Generated job ID: {job_id}")
-
-# raw_path = f"/data/raw/credit_card/job_id={job_id}"
-
-# insert_job(job_id, "credit_card", raw_path)
-# logger.info(f"Inserted job {job_id} into job tracking database")
-
-# df = spark.createDataFrame(
-#     [("1234", "VISA", 5000)],
-#     ["card_no", "type", "limit"]
-# )
-
-# df.coalesce(1).write.option("header", True).csv(raw_path)
-# logger.info(f"Data written to {raw_path}")
-# update_job_status(job_id, "extracted")
-
-# logger.info(f"Job {job_id} extraction completed successfully")
-
-
 def main():
     logger.info("Starting data extraction process...")
     start_time = time.perf_counter()
@@ -180,7 +159,7 @@ def extraction_process():
         logger.info("csv file prepared and saved to raw_files directory")
         logger.info("file saved in directory: "+ raw_path)
 
-        update_job_status(job_id, "extracted")
+        update_job_status(job_id, "EXTRACTED")
         logger.info(f"Job {job_id} extraction completed successfully")
 
         cleanup_temp_files(raw_path)
